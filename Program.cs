@@ -20,6 +20,24 @@ b) Classes are more suitable than structs for large applications because large
 */
 #endregion
 
+#region Question 2
+/*
+a) The parent class is Shipment.
+
+b) The child class is ExpressShipment.
+
+c) ExpressShipment inherits all accessible members from Shipment, such as public
+   and protected fields, properties, methods, and constructors' initialized
+   state. Private members still exist inside the base part of the object, but
+   they cannot be accessed directly from ExpressShipment.
+
+d) Inheritance is better than duplicating code because common behavior is written
+   once in the parent class and reused by child classes. This reduces repetition,
+   makes maintenance easier, and keeps shared validation and business rules
+   consistent across all shipment types.
+*/
+#endregion
+
 public class Program
 {
     public static void Main(string[] args)
